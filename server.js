@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain'); // Указываем тип содержимого
   
   // Отправляем ответ
-  res.end('Hello, World!\n');
+  res.end('Hello, World!123\n');
 });
 
 // Определяем порт
